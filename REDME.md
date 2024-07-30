@@ -102,3 +102,6 @@ Exemplos de regras:
 
 > npm install -D git-commit-msg-linter
 > npx husky add .husky/commit-msg ".git/hooks/commit-msg \$1"
+
+> npm install pg
+> npm install dotenv

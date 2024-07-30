@@ -13,8 +13,14 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^9.8.0",
+    "git-commit-msg-linter": "^5.0.8",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
   }
 }
