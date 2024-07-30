@@ -96,3 +96,6 @@ Exemplos de regras:
     eslint@latest
     ? Would you like to install them now? » No / Yes
 
+> npx prettier index.js
+> npm install -D husky@8.0.3 lint-staged@13.2.3
+> npx husky install
