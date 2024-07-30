@@ -99,3 +99,6 @@ Exemplos de regras:
 > npx prettier index.js
 > npm install -D husky@8.0.3 lint-staged@13.2.3
 > npx husky install
+
+> npm install -D git-commit-msg-linter
+> npx husky add .husky/commit-msg ".git/hooks/commit-msg \$1"
