@@ -105,3 +105,6 @@ Exemplos de regras:
 
 > npm install pg
 > npm install dotenv
+
+> npm i bcrypt
+> npm i uuid
