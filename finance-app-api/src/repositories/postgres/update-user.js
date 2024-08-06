@@ -3,14 +3,14 @@ import { PostgresHelper } from "../../db/postgres/connect/helper"
 export class PostgresUpdateUserRepository {
     async execute(
         userId, 
-        updateParams
+        updateUserParams
     ) {
         const updateFields = []
         const updateValues = []
 
-        Object.keys(updateParams).forEach((key) => {
+        Object.keys(updateUserParams).forEach((key) => {
             updateFields.push(`${key} = $${updateValues.length + 1}`)
-            updateValues.push(updateParams[key])
+            updateValues.push(updateUserParams[key])
         })
 
         updateValues.push(userId)
