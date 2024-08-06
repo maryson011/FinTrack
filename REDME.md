@@ -108,3 +108,6 @@ Exemplos de regras:
 
 > npm i bcrypt
 > npm i uuid
+
+> npm run migrations
+> npm run start:dev

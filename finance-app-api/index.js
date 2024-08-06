@@ -23,5 +23,5 @@ app.get('/api/users/:userId', async (req, res) => {
 })
 
 app.listen(3000, () => {
-    console.log(`listening on port ${process.env.POSTGRES_PORT}`)
+    console.log(`listening on port 3000`)
 })
